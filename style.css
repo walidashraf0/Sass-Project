@@ -22,4 +22,14 @@ h2 {
 }
 .card button {
   padding: 20px;
+}
+
+.all, nav {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #ccc;
 }/*# sourceMappingURL=style.css.map */

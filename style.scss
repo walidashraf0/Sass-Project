@@ -63,3 +63,14 @@ h2 {
         padding: $main-padding;
     }
 }
+
+.all {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: $second-color;
+    @extend .all;
+}

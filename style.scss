@@ -1,71 +1,38 @@
-@import 'variables';
+$colors: red;
+// Map 
+$colors: (
+    "primary": #09c,
+    "dark": #313131,
+    "default": #fff,
+    "danger": #cc0022,
+    "success": #00cc00
+);
 
-
-h2 {
-    color: $main-color;
-}
-
-.card {
-    // background-color: $second-color;
-    // padding: $main-padding;
-    // width: $main-width;
-}
-
-// .card .title {
-//     color: $main-color;
-// }
-
-// .card .desc {
-//     padding: $main-padding;
-// }
-
-// .card button {
-
-// }
-
-.card {
-
-    &:hover {
-        color: red;
+// For Loop
+@each $key,$value in $colors {
+    .text-#{$key} {
+        color: $value;
     }
-
-    background-color: $second-color;
-    padding: $main-padding;
-    width: $main-width;
-    border-radius: 20px;
-    color: $main-color;
-
-    .title {}
-
-    span {
-
-        // font-size: 30px;
-        // font-weight: 900;
-        // font-style: italic;
-        // background-color: $main-color;
-        font: {
-            size: 20px;
-            weight: 900;
-            style: italic;
-        }
+    .bg-#{$key} {
+        background-color: $value;
     }
-
-    .desc {
-        color: black;
-    }
-
-    button {
-        padding: $main-padding;
+    .btn-#{$key} {
+        background-color: $value;
     }
 }
 
-.all {
-    text-decoration: none;
-    margin: 0;
-    padding: 0;
+$font-weights: (
+    "bold": 900,
+    "default": 400,
+    "light": 100
+);
+
+.test {
+    font-weight: map-get($font-weights , "bold" );
 }
 
-nav {
-    background-color: $second-color;
-    @extend .all;
+@each $key,$value in $font-weights {
+    .fw-#{$key} {
+        font-weight: $value;
+    }
 }

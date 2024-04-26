@@ -1,35 +1,75 @@
-h2 {
+.text-primary {
   color: #09c;
 }
 
-.card {
-  background-color: #ccc;
-  padding: 20px;
-  width: 80%;
-  border-radius: 20px;
-  color: #09c;
+.bg-primary {
+  background-color: #09c;
 }
-.card:hover {
-  color: red;
+
+.btn-primary {
+  background-color: #09c;
 }
-.card span {
-  font-size: 20px;
+
+.text-dark {
+  color: #313131;
+}
+
+.bg-dark {
+  background-color: #313131;
+}
+
+.btn-dark {
+  background-color: #313131;
+}
+
+.text-default {
+  color: #fff;
+}
+
+.bg-default {
+  background-color: #fff;
+}
+
+.btn-default {
+  background-color: #fff;
+}
+
+.text-danger {
+  color: #cc0022;
+}
+
+.bg-danger {
+  background-color: #cc0022;
+}
+
+.btn-danger {
+  background-color: #cc0022;
+}
+
+.text-success {
+  color: #00cc00;
+}
+
+.bg-success {
+  background-color: #00cc00;
+}
+
+.btn-success {
+  background-color: #00cc00;
+}
+
+.test {
   font-weight: 900;
-  font-style: italic;
-}
-.card .desc {
-  color: black;
-}
-.card button {
-  padding: 20px;
 }
 
-.all, nav {
-  text-decoration: none;
-  margin: 0;
-  padding: 0;
+.fw-bold {
+  font-weight: 900;
 }
 
-nav {
-  background-color: #ccc;
+.fw-default {
+  font-weight: 400;
+}
+
+.fw-light {
+  font-weight: 100;
 }/*# sourceMappingURL=style.css.map */

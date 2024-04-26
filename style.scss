@@ -1,10 +1,5 @@
-$main-color: #09c;
-$second-color: #ccc;
-$dark-color: #232323;
-$left: left;
-$right: right;
-$main-width: 80%;
-$main-padding: 20px;
+@import 'variables';
+
 
 h2 {
     color: $main-color;

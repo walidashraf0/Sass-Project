@@ -111,141 +111,57 @@
 }
 
 .btn-primary {
-  display: inline-block;
-  padding: 10px;
-  cursor: pointer;
-  text-decoration: none;
-  border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
   border: 0;
   background-color: #09c;
 }
 
 .btn-outline-primary {
-  display: inline-block;
-  padding: 10px;
-  cursor: pointer;
-  text-decoration: none;
-  border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
   border: 1px solid #09c;
   background-color: transparent;
 }
 
 .btn-dark {
-  display: inline-block;
-  padding: 10px;
-  cursor: pointer;
-  text-decoration: none;
-  border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
   border: 0;
   background-color: #313131;
 }
 
 .btn-outline-dark {
-  display: inline-block;
-  padding: 10px;
-  cursor: pointer;
-  text-decoration: none;
-  border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
   border: 1px solid #313131;
   background-color: transparent;
 }
 
 .btn-default {
-  display: inline-block;
-  padding: 10px;
-  cursor: pointer;
-  text-decoration: none;
-  border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
   border: 0;
   background-color: #fff;
 }
 
 .btn-outline-default {
-  display: inline-block;
-  padding: 10px;
-  cursor: pointer;
-  text-decoration: none;
-  border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
   border: 1px solid #fff;
   background-color: transparent;
 }
 
 .btn-danger {
-  display: inline-block;
-  padding: 10px;
-  cursor: pointer;
-  text-decoration: none;
-  border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
   border: 0;
   background-color: #cc0022;
 }
 
 .btn-outline-danger {
-  display: inline-block;
-  padding: 10px;
-  cursor: pointer;
-  text-decoration: none;
-  border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
   border: 1px solid #cc0022;
   background-color: transparent;
 }
 
 .btn-success {
-  display: inline-block;
-  padding: 10px;
-  cursor: pointer;
-  text-decoration: none;
-  border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
   border: 0;
   background-color: #00cc00;
 }
 
 .btn-outline-success {
-  display: inline-block;
-  padding: 10px;
-  cursor: pointer;
-  text-decoration: none;
-  border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
   border: 1px solid #00cc00;
   background-color: transparent;
+}
+
+.wego {
+  color: rgba(179, 217, 179, 0.5);
+  background-color: rgba(77, 77, 255, 0.5);
+  font-size: 2;
 }/*# sourceMappingURL=style.css.map */

@@ -6,4 +6,20 @@ h2 {
   background-color: #ccc;
   padding: 20px;
   width: 80%;
+  border-radius: 20px;
+  color: #09c;
+}
+.card:hover {
+  color: red;
+}
+.card span {
+  font-size: 20px;
+  font-weight: 900;
+  font-style: italic;
+}
+.card .desc {
+  color: black;
+}
+.card button {
+  padding: 20px;
 }/*# sourceMappingURL=style.css.map */

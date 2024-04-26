@@ -11,7 +11,55 @@ h2 {
 }
 
 .card {
+    // background-color: $second-color;
+    // padding: $main-padding;
+    // width: $main-width;
+}
+
+// .card .title {
+//     color: $main-color;
+// }
+
+// .card .desc {
+//     padding: $main-padding;
+// }
+
+// .card button {
+
+// }
+
+.card {
+
+    &:hover {
+        color: red;
+    }
+
     background-color: $second-color;
     padding: $main-padding;
     width: $main-width;
+    border-radius: 20px;
+    color: $main-color;
+
+    .title {}
+
+    span {
+
+        // font-size: 30px;
+        // font-weight: 900;
+        // font-style: italic;
+        // background-color: $main-color;
+        font: {
+            size: 20px;
+            weight: 900;
+            style: italic;
+        }
+    }
+
+    .desc {
+        color: black;
+    }
+
+    button {
+        padding: $main-padding;
+    }
 }

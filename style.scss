@@ -1,42 +1,47 @@
+
+@import 'mixin';
+
+
+
+
+
 $colors: red;
 // Map 
-$colors: (
-    "primary": #09c,
+$colors: ("primary": #09c,
     "dark": #313131,
     "default": #fff,
     "danger": #cc0022,
-    "success": #00cc00
-);
+    "success": #00cc00);
 
 // For Loop
-@each $key,$value in $colors {
-    @for $i from 1 to 6 {
-        .bg-#{$key}-light-#{$i} {
-            background-color: rgba($color: $value, $alpha: $i/10);
-        }
-    }
+@each $key,
+$value in $colors {
+
+    // @for $i from 1 to 6 {
+    //     .bg-#{$key}-light-#{$i} {
+    //         background-color: rgba($color: $value, $alpha: $i/10);
+    //     }
+    // }
     .text-#{$key} {
         color: $value;
     }
+
     .bg-#{$key} {
         background-color: $value;
     }
-    .btn-#{$key} {
-        background-color: $value;
-    }
+
 }
 
-$font-weights: (
-    "bold": 900,
+$font-weights: ("bold": 900,
     "default": 400,
-    "light": 100
-);
+    "light": 100);
 
 .test {
-    font-weight: map-get($font-weights , "bold" );
+    font-weight: map-get($font-weights, "bold");
 }
 
-@each $key,$value in $font-weights {
+@each $key,
+$value in $font-weights {
     .fw-#{$key} {
         font-weight: $value;
     }
@@ -51,4 +56,21 @@ $font-weights: (
 
     }
 
+}
+
+
+
+@each $key,
+$value in $colors {
+    .btn-#{$key} {
+        @include button(10px, 20px);
+        border: 0;
+        background-color: $value;
+    }
+
+    .btn-outline-#{$key} {
+        @include button();
+        border: 1px solid $value;
+        background-color: transparent;
+    }
 }

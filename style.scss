@@ -10,6 +10,11 @@ $colors: (
 
 // For Loop
 @each $key,$value in $colors {
+    @for $i from 1 to 6 {
+        .bg-#{$key}-light-#{$i} {
+            background-color: rgba($color: $value, $alpha: $i/10);
+        }
+    }
     .text-#{$key} {
         color: $value;
     }
@@ -35,4 +40,15 @@ $font-weights: (
     .fw-#{$key} {
         font-weight: $value;
     }
+}
+
+@for $i from 1 to 9 {
+    .child#{$i} {
+        background-color: rgba($color: #09c, $alpha: $i/10);
+        height: 50px;
+        margin: 3px auto;
+        width: 300px + ($i *100);
+
+    }
+
 }
